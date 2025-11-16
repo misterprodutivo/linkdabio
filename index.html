@@ -20,6 +20,7 @@
       --gray-light: #E0E0E0;
       --success: #22C55E;
       --gradient: linear-gradient(135deg, #6C63FF 0%, #FF6584 100%);
+      --gradient-premium: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF6B6B 100%);
       --instagram: #E4405F;
       --prospecting: #15E78F;
       --gameflow: #119EF0;
@@ -331,6 +332,10 @@
       background: var(--gradient);
     }
 
+    .card-clube .button {
+      background: var(--gradient-premium);
+    }
+
     .card-instabot .button {
       background: var(--instagram);
       box-shadow: 0 4px 15px rgba(228, 64, 95, 0.3);
@@ -480,12 +485,23 @@
       <!-- Mentoria Card -->
       <div class="card card-mentoria">
         <div class="card-badge">VIP</div>
-        <img src="Capa Youtube.png" alt="Mentoria IA" class="card-image">
+        <img src="mentoria.png" alt="Mentoria IA" class="card-image">
         <div class="card-title">Aplique para minha mentoria</div>
         <div class="card-description">Entre para a minha mentoria 1:1 e poupe 1 ano de estudos. Acompanhamento
           personalizado onde te ensino o exato método que utilizo para vender agentes de IA todos os meses.</div>
         <a href="https://misterprodutivo.github.io/mentoria/" class="button">
           <i class="fas fa-graduation-cap"></i> Aplicar para mentoria
+        </a>
+      </div>
+
+      <!-- Automação Card -->
+      <div class="card card-clube">
+        <img src="Capa Youtube.png" alt="Automatização de Negócios" class="card-image">
+        <div class="card-title">O Clube de Automações</div>
+        <div class="card-description">Implemento soluções de IA para a sua empresa: agentes de atendimento, SDR,
+          prospecção e muito mais!</div>
+        <a href="https://misterprodutivo.github.io/clubedeautomacoes/" class="button">
+          <i class="fas fa-bolt"></i> Entre para o Clube
         </a>
       </div>
 
